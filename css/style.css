@@ -373,7 +373,7 @@ button {
 #banner1 .carousel-control-next:hover,
 #banner1 .carousel-control-prev:focus,
 #banner1 .carousel-control-next:focus {
-    background: transparent;
+    background: rgb(7, 87, 87);
     border: #03cafc solid 2px;
     color: #03cafc;
 }
@@ -483,7 +483,7 @@ button {
 /** end about section **/
 
 
-/** Our  Supplements section **/
+/** Our  Glasses section **/
 
 .glasses {
     background: #fff;
@@ -504,9 +504,6 @@ button {
 
 .blu {
     color: #03cafc;
-    rgb(7,
-    87,
-    87);
     text-transform: initial;
 }
 
@@ -553,7 +550,7 @@ button {
 .shop {
     margin-top: 90px;
     background: #fefdf9;
-    border-top: #f2f1ed solid 1px;
+    border-top: rgb(7, 87, 87);
     border-bottom: #f2f1ed solid 1px;
 }
 
@@ -711,7 +708,7 @@ button {
 .main_form {
     position: absolute;
     z-index: 999;
-    background: #fff;
+    background: rgb(7, 87, 87);
     padding: 40px 50px;
     margin-top: 107px;
 }
