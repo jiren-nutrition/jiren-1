@@ -171,32 +171,32 @@
     <!-- sidebar -->
     <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
     <script src="js/custom.js"></script>
-    <script>
-        // This example adds a marker to indicate the position of Bondi Beach in Sydney,
-        // Australia.
-        function initMap() {
-            var map = new google.maps.Map(document.getElementById('map'), {
-                zoom: 11,
-                center: {
-                    lat: -25.731340,
-                    lng: 28.218370
-                },
-            });
+    <!-- <script>
+            // This example adds a marker to indicate the position of Bondi Beach in Sydney,
+            // Australia.
+            function initMap() {
+                var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 11,
+                    center: {
+                        lat: -25.731340,
+                        lng: 28.218370
+                    },
+                });
 
-            var image = 'images/maps-and-flags.png';
-            var beachMarker = new google.maps.Marker({
-                position: {
-                    lat: -25.731340,
-                    lng: 28.218370
-                },
-                map: map,
-                icon: image
-            });
-        }
-    </script>
-    <!-- google map js -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
-    <!-- end google map js -->
+                var image = 'images/maps-and-flags.png';
+                var beachMarker = new google.maps.Marker({
+                    position: {
+                        lat: -25.731340,
+                        lng: 28.218370
+                    },
+                    map: map,
+                    icon: image
+                });
+            }
+        </script>
+
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
+         end google map js -->
 </body>
 
 </html>
