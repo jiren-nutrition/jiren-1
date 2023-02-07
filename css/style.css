@@ -321,7 +321,7 @@ button {
 /** banner section **/
 
 .banner_main {
-    background: rgb(206, 218, 218);
+    background: rgb(200, 228, 228);
     padding: 198px 0px 90px 0px;
 }
 
@@ -460,7 +460,7 @@ button {
     border: #000 solid 1px;
     padding: 40px 40px;
     z-index: 10018;
-    background: #fff;
+    background: rgb(200, 228, 228);
     margin-right: 40px;
 }
 
@@ -503,7 +503,7 @@ button {
 }
 
 .blu {
-    color: #03cafc;
+    color: rgb(200, 228, 228);
     text-transform: initial;
 }
 
@@ -708,7 +708,7 @@ button {
 .main_form {
     position: absolute;
     z-index: 999;
-    background: rgb(231, 238, 238);
+    background: rgb(200, 228, 228);
     padding: 40px 50px;
     margin-top: 107px;
 }
